@@ -18,13 +18,13 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         recyclerView = findViewById(R.id.recyclerView)
-        var userAdapter = UsersAdapter(generateData())
+        var adapter = UsersAdapter(generateData())
         val layoutManager = LinearLayoutManager(applicationContext)
         recyclerView?.layoutManager = layoutManager
         recyclerView?.itemAnimator = DefaultItemAnimator()
 
-        recyclerView?.adapter = userAdapter
-        userAdapter.notifyDataSetChanged()
+        recyclerView?.adapter = adapter
+        adapter.notifyDataSetChanged()
     }
 
     private fun generateData(): ArrayList<UserDto> {
