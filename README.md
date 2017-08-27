@@ -1,4 +1,8 @@
 ## Android Kotlin RecyclerView
+
+### Video step by step
+[![Watch the video](http://i.imgur.com/bwUurgv.png)](https://goo.gl/VDCPGE)
+
 ### 1. Add RecyclerView
 ```java
 var recyclerView: RecyclerView? = null
