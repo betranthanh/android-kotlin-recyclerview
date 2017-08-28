@@ -3,6 +3,11 @@
 ### Video step by step
 [![Watch the video](http://i.imgur.com/bwUurgv.png)](https://goo.gl/VDCPGE)
 
+### 0. Add library
+```java
+implementation 'com.android.support:recyclerview-v7:26.0.1'
+```
+
 ### 1. Add RecyclerView
 ```java
 var recyclerView: RecyclerView? = null
